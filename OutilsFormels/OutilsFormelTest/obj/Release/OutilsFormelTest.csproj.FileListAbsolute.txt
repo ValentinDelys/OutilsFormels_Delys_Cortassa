@@ -1,0 +1,11 @@
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\OutilsFormelTest.dll
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\OutilsFormelTest.pdb
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\OutilsFormels.exe
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\MySql.Data.dll
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\BCrypt.Net.dll
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\OutilsFormels.pdb
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\BCrypt.Net.pdb
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\bin\Release\BCrypt.Net.xml
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\obj\Release\OutilsFormelTest.csprojResolveAssemblyReference.cache
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\obj\Release\OutilsFormelTest.dll
+C:\Users\valen\OneDrive\Documents Polytech\Cours\DII5\OutilsFormels\OutilsFormels\OutilsFormelTest\obj\Release\OutilsFormelTest.pdb

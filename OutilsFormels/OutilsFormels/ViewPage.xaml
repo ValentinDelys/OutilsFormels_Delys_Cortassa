@@ -1,0 +1,32 @@
+﻿<Window x:Class="OutilsFormels.ViewPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OutilsFormels"
+        mc:Ignorable="d"
+        Title="Card List" Height="260" Width="420"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListView Margin="10,33,10,46" Name="lvCards">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Number" Width="200" DisplayMemberBinding="{Binding number}" />
+                    <GridViewColumn Header="Expiration" Width="100" DisplayMemberBinding="{Binding Path=expiration, StringFormat='{}{0:MM/yyyy}'}" />
+                    <GridViewColumn Header="Type" Width="50" DisplayMemberBinding="{Binding type}" />
+                </GridView>
+            </ListView.View>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <EventSetter Event="PreviewMouseLeftButtonDown" Handler="ListViewItem_PreviewMouseLeftButtonDown" />
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+        <Button x:Name="btAddCard" Content="Add card" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" Width="76" Height="28" Click="btAddCard_Click"/>
+        <Button x:Name="btRemoveCard" Content="Remove card" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="96,0,0,10" Width="76" Height="28" Click="btRemoveCard_Click"/>
+        <Label x:Name="lUser" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="76">
+            <Run Text="Utilisateur:"/>
+        </Label>
+        <Label x:Name="lUserName" HorizontalAlignment="Left" Margin="96,7,0,0" VerticalAlignment="Top" Width="306" Height="26" Content="{Binding Path=userName}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="OutilsFormels.AddCard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OutilsFormels"
+        mc:Ignorable="d"
+        Title="AddCard" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="lInstructions" Content="Enter the following informations:" HorizontalAlignment="Center" Height="28"  VerticalAlignment="Top" Width="200" FontWeight="Bold" Margin="46,11,46,0" />
+        <Label x:Name="lNumber" Content="Number" HorizontalAlignment="Left" Height="30" Margin="22,45,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="lExpiration" Content="Expiration" HorizontalAlignment="Left" Height="30" Margin="22,85,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="lType" Content="Type" HorizontalAlignment="Left" Height="35" Margin="22,125,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBox x:Name="tbNumber" HorizontalAlignment="Left" Height="22" Margin="126,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="tbYear" HorizontalAlignment="Left" Height="22" Margin="197,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="71" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <ComboBox x:Name="cbType" HorizontalAlignment="Left" VerticalAlignment="Top" Width="142" Margin="126,125,0,0" SelectionChanged="cbType_SelectionChanged">
+            <ComboBoxItem Content="Visa"/>
+            <ComboBoxItem Content="MasterCard"/>
+        </ComboBox>
+        <Button x:Name="bValidate" Content="Validate" HorizontalAlignment="Center" Height="28" Margin="111,231,105,10" Width="76" Click="bValidate_Click"/>
+        <ComboBox x:Name="cbMonth" HorizontalAlignment="Left" Margin="126,93,0,0" VerticalAlignment="Top" Width="61" SelectionChanged="cbMonth_SelectionChanged">
+            <ComboBoxItem Content="01"/>
+            <ComboBoxItem Content="02"/>
+            <ComboBoxItem Content="03"/>
+            <ComboBoxItem Content="04"/>
+            <ComboBoxItem Content="05"/>
+            <ComboBoxItem Content="06"/>
+            <ComboBoxItem Content="07"/>
+            <ComboBoxItem Content="08"/>
+            <ComboBoxItem Content="09"/>
+            <ComboBoxItem Content="10"/>
+            <ComboBoxItem Content="11"/>
+            <ComboBoxItem Content="12"/>
+        </ComboBox>
+    </Grid>
+</Window>
